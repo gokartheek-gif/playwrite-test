@@ -8,7 +8,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.59.1",
+    "@playwright/mcp": "^0.0.75",
+    "@playwright/test": "^1.60.0",
     "@types/node": "^25.5.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokartheek-gif/playwrite-test.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gokartheek-gif/playwrite-test/issues"
+  },
+  "homepage": "https://github.com/gokartheek-gif/playwrite-test#readme"
 }
